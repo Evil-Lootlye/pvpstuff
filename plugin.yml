@@ -1,0 +1,31 @@
+main: pvpoverhaulmain.pvpmain
+name: pvpstuff
+version: 1.0
+author: Evil_Lootly
+description: Attempts to make pvp more exciting and enjoyable.
+
+commands:
+  resetpowers:
+    description: Resets your power to zero.
+    usage: /resetpowers
+  reloadconfigfol:
+    description: Reloads the config folder.
+    usage: /reloadconfigfol
+    permission: pvpmain.reloadconfigfol
+    permission-message: You don't have the pvpmain.reloadconfigfol permission.
+  saveconfigfol:
+    description: Saves the config folder.
+    usage: /saveconfigfol
+    permission: pvpmain.saveconfigfol
+    permission-message: You don't have the pvpmain.saveconfigfol permission.
+  alterpower:
+    description: Allows you to alter a power level.
+    usage: /alterpower
+    permission: pvpmain.alterpower
+    permission-message: You don't have the pvpmain.alterpower permission.
+  getpower:
+    description: Gets the level of your current powers.
+    usage: /getpower
+  turnonpower:
+    description: Turns on your powers.
+    usage: /turnonpower
